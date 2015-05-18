@@ -1,4 +1,5 @@
 
+var leveldown = require('leveldown')
 var conf = require('./conf/config')
 var express = require('express')
 var app = express()
@@ -6,7 +7,8 @@ var ChainDB = require('chaindb')
 var chaindb = new ChainDB({
   block: 330399,
   path: './test.db',
-  networkName: 'testnet'
+  networkName: 'testnet',
+  leveldown: leveldown
 })
 
 chaindb.run()

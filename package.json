@@ -25,6 +25,7 @@
   "homepage": "https://github.com/tradle/chaindb-server#readme",
   "dependencies": {
     "chaindb": "git://github.com/tradle/chaindb",
-    "express": "^4.12.3"
+    "express": "^4.12.3",
+    "leveldown": "^1.0.6"
   }
 }
