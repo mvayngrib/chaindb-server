@@ -1,0 +1,30 @@
+{
+  "name": "chaindb-server",
+  "version": "0.0.1",
+  "description": "small http server for talking to chaindb",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tradle/chaindb-server.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "blockchain",
+    "chaindb",
+    "tradle"
+  ],
+  "author": "Mark Vayngrib <mark.vayngrib@lablz.com> (http://github.com/mvayngrib)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tradle/chaindb-server/issues"
+  },
+  "homepage": "https://github.com/tradle/chaindb-server#readme",
+  "dependencies": {
+    "chaindb": "git://github.com/tradle/chaindb",
+    "express": "^4.12.3"
+  }
+}
